@@ -1,0 +1,41 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: url("images/landing-page-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 150px 10px 10px 0px;
+    color: #1d2d50;
+    font-weight: bold;
+}
+h2{
+    color: #212529;
+    text-align: center;
+    padding-top: 75px;
+}
+p{
+    padding: 0 350px 100px 350px;
+    color: #1e5f74;
+}
+.btn-developer{
+    margin-top: 25px;
+    left: 35%;
+    position: absolute;
+    white-space: nowrap;
+    text-align: center;
+}
+.btn-teacher{
+    margin-top: 25px;
+    left: 55%;
+    position: absolute; 
+    white-space: nowrap;
+    text-align: center;
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <link rel="icon" href="images/coding.png" />
-    <title>Coding Platform</title>
+    <title>Developer</title>
     
     <!--Google fonts-->
     <link
@@ -24,28 +24,28 @@
     <script src="https://kit.fontawesome.com/fbb5ba24e1.js" crossorigin="anonymous"></script>
 
     <!--CSS-->
-    <link rel="stylesheet" href="styles.css">
-    </head>
+    <link rel="stylesheet" href="signup-styles.css">
+</head>
 
-
-  <body class="bg">
-    <section id="landing-page">
-      <h1>Welcome to CCP!</h1>
-      <br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-      aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>    
-    </section>
-    <script src="./src/index.js" type="text.jsx"></script>
-    <div id="root">
-    
+<body>
+    <div>
+        <a id="back-button" href='index.html' class="fas fa-arrow-circle-left fa-2x"></a>
     </div>
-  </body>
+    <div class="container">
+        <div class="form sign-in">
+            <h2>Sign In</h2>
+            <label>
+                <span>Email Address</span>
+                <input type="email" name="email">
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" name="password">
+            </label>
+            <button type="button" class="btn btn-outline-secondary button-login submit">Login <i class="fas fa-sign-in-alt"></i></button>
+            <p class="forgot-pass">Forgot Password ?</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
-
-<!--<button type="button" class="btn btn-outline-dark btn-lg btn-developer"><a
-          style="text-decoration: none; color: inherit;" href='login.html'><i class="fas fa-laptop-code"></i>
-          Developer</a></button>
-      <button type="button" class="btn btn-outline-dark btn-lg btn-teacher"><a style="text-decoration: none; color: inherit"
-          href='login.html'><i class="fas fa-terminal"></i>
-          Teacher</a></button>-->
