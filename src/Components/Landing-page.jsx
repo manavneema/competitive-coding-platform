@@ -11,18 +11,17 @@ function Landingpage() {
       <div>
         <button
           type="button"
-          class="btn btn-outline-dark btn-lg btn-developer"
+          className="btn btn-outline-dark btn-lg btn-developer"
           onClick={handleClickSignup}
         >
-          <i class="fas fa-laptop-code"></i> Developer
+          <i className="fas fa-laptop-code"></i> Developer
         </button>
         <button
           type="button"
-          class="btn btn-outline-dark btn-lg btn-teacher"
+          className="btn btn-outline-dark btn-lg btn-teacher"
           onClick={handleClickLogin}
         >
-          <a href="login.html"></a>
-          <i class="fas fa-terminal"></i> Teacher
+          <i className="fas fa-terminal"></i> Teacher
         </button>
       </div>
     );

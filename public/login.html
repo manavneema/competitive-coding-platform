@@ -10,6 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@400;900&family=Roboto&display=swap"
       rel="stylesheet">
 
+    <!--jQuery for bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
     <!--Bottstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -31,14 +34,15 @@
     <div>
         <a id="back-button" href='index.html' class="fas fa-arrow-circle-left fa-2x"></a>
     </div>
+    
     <div class="container">
-        <div class="form sign-in">
+        <div class="form login">
             <h2>Login as a teacher</h2>
-            <label>
+            <label class="login-label">
                 <span>Email Address</span>
                 <input type="email" name="email">
             </label>
-            <label>
+            <label class="login-label">
                 <span>Password</span>
                 <input type="password" name="password">
             </label>

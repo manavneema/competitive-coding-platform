@@ -11,38 +11,37 @@ h2{
 }
 
 label{
-  display: block;
-  width: 260px;
-  margin: 25px auto 0;
-  text-align: center;
+    width: auto;
+    margin: 25px auto 0;
+    text-align: center;
 }
 
 label span{
-  font-size: 14px;
-  font-weight: 600;
-  color: #505f75;
-  text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #505f75;
+    text-transform: uppercase;
 }
 
 input, button{
-  border:none;
-  outline: none;
-  background: none;
+    border:none;
+    outline: none;
+    background: none;
 }
 
 input{
-  display: block;
-  width: 100%;
-  margin-top: 5px;
-  font-size: 16px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid black;
-  text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .container{
-    width: 50ch;
-    height: 75vh;
+    width: fit-content;
+    background-color: gray;
     background: #fff;
     background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
@@ -52,6 +51,11 @@ input{
     position: relative;
     height: 100%;
     padding: 35px 10px;
+}
+
+.login-label{
+    display: block;
+    padding-top: 15px;
 }
 
 .button-login{  
@@ -83,11 +87,13 @@ input{
   color: #00334e;
 }
 
+.login{
+    padding: 20px 100px 60px;
+}
+
 #back-button{
     text-decoration: none;
     padding: 40px 0 30px 50px;
     color: #f6f5f5;
     size: 10rem;
 }
-
-

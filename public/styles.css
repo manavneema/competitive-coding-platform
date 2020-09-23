@@ -4,10 +4,10 @@ body{
 .bg {
   /* The image used */
   background-image: url("images/landing-page-background.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
